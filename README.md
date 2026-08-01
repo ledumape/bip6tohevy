@@ -1,4 +1,4 @@
-# Color Cycle — Amazfit Bip 6
+# bip6tohevy — Amazfit Bip 6
 
 Mini Program para Zepp OS que prepara a integração com o Hevy. O Side Service
 roda no celular, consulta a API do Hevy e conversa com o app no relógio por
