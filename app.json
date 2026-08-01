@@ -1,0 +1,32 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appType": "app",
+    "version": { "code": 1, "name": "1.0.0" },
+    "appId": 1121989,
+    "appName": "Rev Test",
+    "icon": "icon.png",
+    "vender": "custom",
+    "description": "Treinos Hevy no Amazfit Bip 6."
+  },
+  "runtime": {
+    "apiVersion": { "compatible": "4.2", "target": "4.2", "minVersion": "4.2" }
+  },
+  "targets": {
+    "bip6": {
+      "module": {
+        "page": { "pages": ["page/index.page"] },
+        "app-side": { "path": "app-side/index" }
+      },
+      "designWidth": 390,
+      "platforms": [
+        { "name": "bip6", "deviceSource": 9765120 },
+        { "name": "bip6-alt", "deviceSource": 9765121 },
+        { "name": "bip6-global", "deviceSource": 10158337 }
+      ]
+    }
+  },
+  "permissions": ["data:user.hd.heart_rate", "data:user.hd.workout"],
+  "defaultLanguage": "en-US",
+  "debug": false
+}

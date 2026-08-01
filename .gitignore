@@ -1,0 +1,13 @@
+# Chaves e configuração somente do dispositivo local
+side-service/config.local.js
+
+# Saídas geradas pelo Zeus / Zepp OS
+dist/
+build/
+*.zab
+
+# Arquivos do sistema e editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
